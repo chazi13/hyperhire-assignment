@@ -5,19 +5,34 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-}
+  --primary: #4a77ff;
+  --accent: #fbff23;
+  --footer-bg: #fbfbfb;
+  --footer-subtitle: #343741;
+  --muted: #5e626f;
+  --border: #c1c5cf;
+  --success: #00c696;
+  --success-foreground: #e9f7ef;
+  --light-gray-blue: #eff1f6;
+  --sky: #8bc4ff;
+  --aqua: #40e2e8;
+  --lavender: #e8ecff;
+  --mint: #e9f7ef;
+  --seafoam: #bbf3d2;
+  --frosted-glass: #ffffffcc;
+  --glass: #ffffff33;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --line-height-default: 150%;
+  --line-height-dense: 150%;
+
+  --font-weight-default: 900;
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-weight: var(--font-weight-default);
+  line-height: var(--line-height-default);
 }
 
 @layer utilities {
