@@ -3,6 +3,7 @@ import localFont from 'next/font/local';
 import './globals.css';
 import Header from '@/components/organisms/Header';
 import Footer from '@/components/organisms/Footer';
+import Requirements from '@/components/organisms/Requirements';
 
 const poppins = localFont({
   src: [
@@ -36,6 +37,7 @@ export default function RootLayout({
         <main className="min-h-screen overflow-x-hidden bg-hero-mobile bg-cover bg-center pb-[60px] md:bg-hero-desktop xl:min-h-[840px]">
           <Header />
           {children}
+          <Requirements />
         </main>
         <Footer />
       </body>
