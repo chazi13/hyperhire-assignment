@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Button, ButtonProps } from '../atoms/Button';
+import Button, { ButtonProps } from '../atoms/Button';
 import { Menu } from '@/types';
 import { cn } from '@/lib/utils';
 

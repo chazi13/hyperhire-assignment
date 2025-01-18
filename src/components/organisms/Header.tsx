@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import Logo from '../atoms/Logo';
-import { Button } from '../atoms/Button';
+import Button from '../atoms/Button';
 import NavigationMenu from './NavigationMenu';
 import Link from 'next/link';
 import { cn } from '@/lib/utils';

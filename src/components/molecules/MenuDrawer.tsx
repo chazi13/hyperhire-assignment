@@ -32,7 +32,7 @@ export default function MenuDrawer({ open }: Props) {
             {item.isFooter && <hr />}
             <NavigationItem
               menu={item}
-              className="w-full justify-start rounded-none py-3 font-normal text-text hover:bg-slate-300/25"
+              className="text-neutral w-full justify-start rounded-none py-3 font-normal hover:bg-slate-300/25"
             />
           </Fragment>
         );
