@@ -45,7 +45,7 @@ export default function Header() {
       </div>
       <div
         className={cn(
-          'absolute left-0 top-0 h-0 w-0 transition-all duration-0',
+          'absolute left-0 top-0 z-50 h-0 w-0 transition-all duration-0',
           isMobileMenuOpen && 'h-screen w-screen bg-slate-800/90',
         )}
         onClick={toggleMobileMenu}>

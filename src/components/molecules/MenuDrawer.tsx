@@ -17,7 +17,7 @@ export default function MenuDrawer({ open }: Props) {
   return (
     <div
       className={cn(
-        'z-[100] h-screen w-0 translate-x-[100vw] overflow-hidden bg-white transition-all duration-300',
+        'z-50 h-screen w-0 translate-x-[100vw] overflow-hidden bg-white transition-all duration-300',
         open && 'w-[80vw] translate-x-[20vw]',
       )}>
       {menus.map((item, index) => {
