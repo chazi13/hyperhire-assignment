@@ -41,7 +41,7 @@ const config: Config = {
         '15': '3.75rem',
       },
       fontWeight: {
-        'extra-black': '1000',
+        extrablack: '1000',
       },
       borderWidth: {
         anchor: '0.75rem',

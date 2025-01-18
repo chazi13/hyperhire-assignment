@@ -16,7 +16,7 @@ export default function Header() {
   return (
     <header className="h-[60px] w-full">
       <div className="mx-auto flex max-w-screen-xl items-center justify-between px-4">
-        <Logo src="/white-logo.png" alt="Hyperhire logo" />
+        <Logo src="/white-logo.png" alt="Hyperhire logo" className="my-5" />
 
         {/* Desktop Navigation */}
         <div className="hidden md:block">
