@@ -19,6 +19,7 @@ const config: Config = {
         border: 'var(--border)',
         success: 'var(--success)',
         'success-foreground': 'var(--success-foreground)',
+        text: 'var(--text)',
         'light-gray-blue': 'var(--light-gray-blue)',
         sky: 'var(--sky)',
         aqua: 'var(--aqua)',

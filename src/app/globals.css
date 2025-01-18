@@ -13,6 +13,7 @@
   --border: #c1c5cf;
   --success: #00c696;
   --success-foreground: #e9f7ef;
+  --text: #344054;
   --light-gray-blue: #eff1f6;
   --sky: #8bc4ff;
   --aqua: #40e2e8;
@@ -29,7 +30,7 @@
 }
 
 body {
-  color: var(--foreground);
+  color: var(--text);
   background: var(--background);
   font-weight: var(--font-weight-default);
   line-height: var(--line-height-default);
