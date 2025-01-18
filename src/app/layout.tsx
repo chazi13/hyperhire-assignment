@@ -4,6 +4,7 @@ import './globals.css';
 import Header from '@/components/organisms/Header';
 import Footer from '@/components/organisms/Footer';
 import Requirements from '@/components/organisms/Requirements';
+import Jobs from '@/components/organisms/Jobs';
 
 const poppins = localFont({
   src: [
@@ -34,10 +35,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${poppins.className} antialiased`}>
-        <main className="min-h-screen overflow-x-hidden bg-hero-mobile bg-cover bg-center pb-[60px] md:bg-hero-desktop xl:min-h-[840px]">
+        <main className="min-h-screen overflow-x-hidden bg-hero-mobile bg-cover bg-center pb-[60px] md:bg-hero-desktop xl:min-h-[844px]">
           <Header />
           {children}
           <Requirements />
+          <Jobs />
         </main>
         <Footer />
       </body>

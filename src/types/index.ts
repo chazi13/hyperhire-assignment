@@ -10,3 +10,9 @@ export interface Service {
   icon: ReactNode;
   labe: string;
 }
+
+export interface Job {
+  id: number;
+  icon: ReactNode;
+  name: string;
+}
