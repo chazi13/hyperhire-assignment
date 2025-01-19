@@ -16,3 +16,14 @@ export interface Job {
   icon: ReactNode;
   name: string;
 }
+
+export interface Employee {
+  id: number;
+  name: string;
+  position: string;
+  experience: string;
+  imageSrc: string;
+  flagImageSrc: string;
+  sallary: string;
+  skills: string[];
+}

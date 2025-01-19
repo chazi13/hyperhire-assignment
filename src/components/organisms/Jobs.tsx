@@ -87,7 +87,7 @@ export default function Jobs() {
   }, [removedJob]);
 
   return (
-    <div className="mx-auto mt-[60px] hidden max-w-screen-xl xl:block">
+    <div className="mx-auto mt-[60px] hidden max-w-screen-xl px-4 xl:block">
       <div ref={parentRef} className="flex gap-[10px]">
         {showJobs &&
           jobs.map((job) => (

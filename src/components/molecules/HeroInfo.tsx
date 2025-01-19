@@ -6,6 +6,7 @@ import HeroDescription from '../atoms/HeroDescription';
 import HeroTitle from '../atoms/HeroTitle';
 import { useState, useEffect } from 'react';
 import { useAutoAnimate } from '@formkit/auto-animate/react';
+import ChatBubbleCaret from '../atoms/ChatBubbleCaret';
 
 export default function HeroInfo() {
   const [parentRef] = useAutoAnimate({
@@ -21,8 +22,16 @@ export default function HeroInfo() {
   }, []);
 
   return (
-    <div ref={parentRef} className="max-w-[640px] space-y-4 px-4 xl:px-0">
-      {showBubble ? <ChatBubble>풀타임, 파트타임</ChatBubble> : <div className="h-[54px]" />}
+    <div ref={parentRef} className="max-w-[640px] space-y-4 px-4">
+      {showBubble ? (
+        <div className="pb-3.5">
+          <ChatBubble>
+            <span className="text-white xl:text-aqua">풀타임, 파트타임</span> <ChatBubbleCaret />
+          </ChatBubble>
+        </div>
+      ) : (
+        <div className="h-[54px]" />
+      )}
       {showTitle && (
         <>
           <div className="animate-fadeInUp">

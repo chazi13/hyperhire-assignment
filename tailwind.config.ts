@@ -16,7 +16,7 @@ const config: Config = {
         'footer-bg': 'var(--footer-bg)',
         'footer-subtitle': 'var(--footer-subtitle)',
         muted: 'var(--muted)',
-        border: 'var(--border)',
+        'muted-foreground': 'var(--muted-foreground)',
         success: 'var(--success)',
         'success-foreground': 'var(--success-foreground)',
         'text-neutral': 'var(--text-neutral)',

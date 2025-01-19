@@ -31,7 +31,7 @@ export default function Highlights() {
   }, []);
 
   return (
-    <div ref={parentRef} className="mt-15 hidden max-w-[640px] justify-between xl:flex">
+    <div ref={parentRef} className="mt-15 hidden max-w-[640px] justify-between px-4 xl:flex">
       {showHighlights &&
         highlights.map((feature) => (
           <HighlightCard key={feature.title}>

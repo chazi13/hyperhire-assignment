@@ -3,7 +3,7 @@ import Highlights from '@/components/organisms/Highlights';
 
 export default function Home() {
   return (
-    <div className="mx-auto mt-15 max-w-screen-xl">
+    <div className="mt-15">
       <HeroInfo />
       <Highlights />
     </div>

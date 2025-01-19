@@ -29,15 +29,20 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
+  employeeCarousel,
 }: Readonly<{
   children: React.ReactNode;
+  employeeCarousel: React.ReactNode;
 }>) {
   return (
     <html lang="en">
       <body className={`${poppins.className} antialiased`}>
         <main className="min-h-screen overflow-x-hidden bg-hero-mobile bg-cover bg-center pb-[60px] md:bg-hero-desktop xl:min-h-[844px]">
           <Header />
-          {children}
+          <div className="mx-auto flex max-w-screen-xl flex-col xl:flex-row">
+            {children}
+            <div className="mt-9 flex-1 xl:ml-4 xl:mt-15">{employeeCarousel}</div>
+          </div>
           <Requirements />
           <Jobs />
         </main>

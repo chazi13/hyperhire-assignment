@@ -19,7 +19,7 @@ export default function Requirements() {
   }, []);
 
   return (
-    <div ref={parentRef} className="mt-6 space-y-4 px-4 xl:hidden">
+    <div ref={parentRef} className="mt-8 space-y-4 px-4 xl:hidden">
       {showRequirements && (
         <>
           <div className="grid w-72 grid-cols-2 gap-2">
