@@ -1,8 +1,9 @@
 import EmployeeCarousel from '@/components/organisms/EmployeeCarousel';
 import { Employee } from '@/types';
+import { GET } from '../employees/route';
 
 async function getEmployees() {
-  const res = await fetch('http://localhost:3000/employees');
+  const res = await GET();
 
   if (!res.ok) {
     throw new Error('Failed to fetch posts');
