@@ -41,7 +41,7 @@ export default function RootLayout({
           <Header />
           <div className="mx-auto flex max-w-screen-xl flex-col xl:flex-row">
             {children}
-            <div className="mt-9 flex-1 xl:ml-4 xl:mt-15">{employeeCarousel}</div>
+            <div className="mt-6 flex-1 xl:mt-15 xl:px-4">{employeeCarousel}</div>
           </div>
           <Requirements />
           <Jobs />

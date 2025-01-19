@@ -23,14 +23,12 @@ export default function HeroInfo() {
 
   return (
     <div ref={parentRef} className="max-w-[640px] space-y-4 px-4">
-      {showBubble ? (
-        <div className="pb-3.5">
+      {showBubble && (
+        <div className="animate-fadeIn pb-2">
           <ChatBubble>
             <span className="text-white xl:text-aqua">풀타임, 파트타임</span> <ChatBubbleCaret />
           </ChatBubble>
         </div>
-      ) : (
-        <div className="h-[54px]" />
       )}
       {showTitle && (
         <>
